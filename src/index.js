@@ -33,7 +33,7 @@ function action(event){
        // Caso as condições não sejam atendidas, retornar a função vazia, indo para o próximo tweet
      }
 }
-var stream = Tweet.stream('statuses/filter', {track: 'bot'}) 
+var stream = Tweet.stream('statuses/filter', {track: '#divulgameutrampo'}) 
 // Aqui dizemos para o programa verificar em modo streaming
 stream.on('data', action) 
 // Ao receber as informações (`data`), passar elas para a função action e chamar a mesma.
