@@ -15,6 +15,7 @@ const Bot = new twit({
       //Aqui vai o que você quer buscar
       q: "#divulgameutrampo",
       result_type: "recent",
+      
     };
     // Este método busca os tweets mais recentes baseado na sua query
     Bot.get("search/tweets", query, BotGotLatestTweet);
@@ -32,7 +33,7 @@ const Bot = new twit({
   
       function BotRetweeted(error, response) {
         if (error) {
-          console.log("não retwito: " + error);
+          console.log("não retwitado: " + error);
         } else {
           console.log("Bot retweeto: " + id.id);
         }
@@ -40,7 +41,7 @@ const Bot = new twit({
     }
   }
   
-  setInterval(BotInit, 1 * 60 * 1000);
+  setInterval(BotInit, 5 * 1000);
   BotInit();
 
 
