@@ -1,1 +1,1 @@
-heroku restart -a divulga-meu-trampo-bot
+heroku npm start
