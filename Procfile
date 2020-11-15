@@ -1,1 +1,1 @@
-ps:scale worker=1
+heroku scale web=1
