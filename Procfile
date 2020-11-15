@@ -1,1 +1,1 @@
-heroku ps:scale web
+heroku restart -a divulga-meu-trampo
