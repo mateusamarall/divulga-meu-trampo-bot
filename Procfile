@@ -1,1 +1,1 @@
-heroku restart -a divulga-meu-trampo
+heroku restart -a divulga-meu-trampo-bot
