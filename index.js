@@ -12,12 +12,12 @@ const Bot = new twit({
   function BotInit() {
     var query = {
       //Aqui o que vai buscar
-      q: "#divulgameutrampo",
+      q:"divulga meu trabalho",
       result_type: "recent",
       
     };
     // Este método busca os tweets mais recentes baseado na query
-    Bot.get("search/tweets", query, BotGotLatestTweet);
+    Bot.get("search/tweets",query, BotGotLatestTweet);
   
     function BotGotLatestTweet(error, data, response) {
       if (error) {
