@@ -9,8 +9,7 @@ Aplicativo criado no intuito para ajudar pessoas a divulgarem seus trabalhos no 
 ## O por que de criar o bot?
 
 
-<p>A ideia de criar este bot já é de muito tempo porém criei ele neste segundo semestre deste ano (2020). Percebi que várias pessoas estavam/estão divulgado seu trabalho
-no twitter e com a pandemia houve um grande aumento nessa atividade. Daí surgiu a oportunidade de ajudar essas pessoas.
+<p>A ideia de criar este bot já é de muito tempo, porém criei ele neste segundo semestre deste ano (2020). Percebi que várias pessoas estavam/estão divulgado seu trabalho no twitter e com a pandemia houve um grande aumento nessa atividade. Daí surgiu a oportunidade de ajudar essas pessoas.
 </p>
 
 ## Como o bot  ajuda as pessoas? 💁‍♂️
@@ -20,7 +19,7 @@ frase o bot automaticamente retweeta assim  alavacando e trazendo mais visibilid
 
 
 ## Pequenas observações 🕵️‍♂️
-<p>O bot foi ao ar com servidor gratuito que quer dizer que existe uma quantidade de horas a usar e todo mês e renovado essas horas, porém ao chegar a um final de mês ele pode parar automaticamente
+<p>O bot foi ao ar com servidor gratuito o que quer dizer que existe uma quantidade de horas a usar e todo mês e renovado essas horas, porém ao chegar a um final de mês ele pode parar automaticamente
 e precisando ser religado manualmente podendo não retweetar alguns tweets.
 </p>
 
