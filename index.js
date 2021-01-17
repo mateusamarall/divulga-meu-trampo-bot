@@ -9,13 +9,29 @@ const Bot = new twit({
     access_token_secret: process.env.ACCESS_TOKEN_SECRET,
   });
   
-  function BotInit() {
-    var query = {
-      //Aqui o que vai buscar
-      q:"divulga meu trabalho",
-      result_type: "recent",
-      
+  let querySearch = {
+    valuesQuery:[
+      {
+        value:"divulga meu trabalho"
+      },
+      {
+        value:"@divulgatrampo"
+      }
+    ]
+  }
+ //faz um map na variavel querySearch pegando os valores e jogando na variavel valuesToRetweet
+let valuesToRetweet = querySearch.valuesQuery.map((valores,index)=> valores.value);
+
+function BotInit() {
+  //joga na variavel randmNumbers 0 ou 1 para que ajude na hora de buscar os tweets que foram declarados na variavel querySearch
+   let randomNumbers = Math.round(Math.random(0,1));
+   var query = {
+     //Aqui o que vai buscar
+     q: valuesToRetweet[randomNumbers],
+     result_type: "recent",
+     
     };
+  
     // Este método busca os tweets mais recentes baseado na query
     Bot.get("search/tweets",query, BotGotLatestTweet);
   
