@@ -32,8 +32,7 @@ function BotInit() {
      result_type: "recent",
      
     };
-    console.log(randomNumbers);
-    console.log(query);
+ 
    
   
     // Este método busca os tweets mais recentes baseado na query
